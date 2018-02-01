@@ -1,0 +1,5 @@
+create table MCA (STUD VARCHAR(20), ID int(20));
+insert into MCA values('ASDD', 2);
+INSERT INTO MCA VALUES('ASD',3);
+INSERT INTO MCA VALUES('ASDASD',4);
+select * FROM MCA ORDER BY ID DESC;
